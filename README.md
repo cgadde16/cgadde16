@@ -5,8 +5,8 @@
   </picture>
 </a>
 <a href="https://github.com/yalongwastaken/git-koi">
-  <img src="koi/koi.gif" align="right" width="40%" alt="My koi" />
+  <img src="koi/koi.gif" align="right" width="45%" alt="My koi" />
 </a>
 <br clear="all" />
-<img src="cards/languages.svg" align="right" width="40%" alt="Languages I've contributed in" />
+<img src="cards/languages.svg" align="right" width="45%" alt="Languages I've contributed in" />
 <br clear="all" />
