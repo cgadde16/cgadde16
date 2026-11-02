@@ -13,36 +13,19 @@ permissions:
 concurrency: cards
 
 jobs:
-  cards:
+  languages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - name: Languages card, light
-        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+      - uses: lowlighter/metrics@latest
         with:
-          card: top-langs
-          options: username=cgadde16&hide_border=true&disable_animations=true&bg_color=00000000&title_color=4a32a6&text_color=1f2328&card_width=400&layout=compact&langs_count=6
-          path: cards/languages-light.svg
-          core_version: 2.2.0
-          fail_on_error: "true"
-      - name: Languages card, dark
-        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
-        with:
-          card: top-langs
-          options: username=cgadde16&hide_border=true&disable_animations=true&bg_color=00000000&title_color=a98ff7&text_color=c9d1d9&card_width=400&layout=compact&langs_count=6
-          path: cards/languages-dark.svg
-          core_version: 2.2.0
-          fail_on_error: "true"
-      - name: Commit the cards if they changed
-        shell: bash
-        run: |
-          git pull --quiet --rebase
-          git add cards
-          if git diff --cached --quiet; then
-            echo "Cards unchanged; nothing to commit."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet --message "cards: update"
-          git push --quiet
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: cards/languages.svg
+          base: ""
+          repositories_affiliations: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          plugin_languages_ignored: html, css, jupyter notebook
+          plugin_languages_colors: "0:#f2a33a, 1:#2b7bd8, 2:#8cc4ff, 3:#d9731a, 4:#ffcf8a, 5:#e8e8e8"
