@@ -1,20 +1,11 @@
-<a href="https://github.com/yalongwastaken/git-koi">
-  <img src="koi/koi.gif" align="right" width="45%" alt="My koi" />
-</a>
 <picture>
-  <img src="assets/spacer.svg" align="left" width="50%" alt="" />
+  <img src="assets/moonlit-night-wide.svg" width="100%" alt="Moonlit night: pixel art of a moon over a lake with a fishing boat, jumping dolphins, a whale, a glowing lantern and fireflies" />
 </picture>
-<a href="https://github.com/cgadde16">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cgadde16/cgadde16/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/cgadde16/cgadde16/output/github-snake.svg" align="left" width="50%" alt="Snake eating my contributions" />
-  </picture>
-</a>
-<picture>
-  <img src="assets/gap.svg" align="left" width="50%" alt="" />
-</picture>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1500&color=F2A33A&multiline=true&repeat=false&width=435&height=75&lines=Hey%2C+I+am+Carl+%F0%9F%91%8B;I+study+Computer+Science" align="left" width="50%" alt="Hey, I am Carl. I study Computer Science." />
-<picture>
-  <img src="assets/spacer.svg" align="left" width="50%" alt="" />
-</picture>
-<img src="cards/languages.svg" align="right" width="45%" alt="Languages I've contributed in" />
+
+<p align="center">
+  <a href="mailto:carlgadde@proton.me"><img src="assets/icon-mail.svg" width="44" alt="Email me" /></a>
+  &nbsp;&nbsp;
+  <a href="https://cv-carlgadde.com"><img src="assets/icon-website.svg" width="44" alt="My website" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/carl-gadde/"><img src="assets/icon-linkedin.svg" width="44" alt="LinkedIn" /></a>
+</p>
