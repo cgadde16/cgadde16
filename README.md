@@ -1,7 +1,7 @@
 <a href="https://github.com/cgadde16">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cgadde16/cgadde16/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/cgadde16/cgadde16/output/github-snake.svg" align="left" width="55%" alt="Snake eating my contributions" />
+    <img src="https://raw.githubusercontent.com/cgadde16/cgadde16/output/github-snake.svg" align="left" width="50%" alt="Snake eating my contributions" />
   </picture>
 </a>
 <a href="https://github.com/yalongwastaken/git-koi">
