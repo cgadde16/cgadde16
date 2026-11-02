@@ -3,6 +3,6 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-snake-dark.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cgadde16/cgadde16/output/github-snake-dark.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/cgadde16/cgadde16/output/github-snake.svg" />
 </picture>
