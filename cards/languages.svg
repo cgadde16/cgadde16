@@ -16,15 +16,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 2.19mb of code in 169 edited files across 20 commits</small>
+                <small>estimation from 2.93mb of code in 222 edited files across 26 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="356.71383705967105" height="8" fill="#f2a33a"/>
-                    <rect mask="url(#languages-bar)" x="356.71383705967105" y="0" width="81.9675383174038" height="8" fill="#2b7bd8"/>
-                    <rect mask="url(#languages-bar)" x="438.68137537707486" y="0" width="21.31862462292515" height="8" fill="#8cc4ff"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="362.31091708733237" height="8" fill="#f2a33a"/>
+                    <rect mask="url(#languages-bar)" x="362.31091708733237" y="0" width="83.25366412461815" height="8" fill="#2b7bd8"/>
+                    <rect mask="url(#languages-bar)" x="445.56458121195055" y="0" width="14.435418788049482" height="8" fill="#8cc4ff"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -36,7 +36,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>77.55%</div>
+                                <div>78.76%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -47,7 +47,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>4.63%</div>
+                                <div>3.14%</div>
                             </small>
                         </div>
                     </section>
@@ -60,7 +60,7 @@
                                 Zeek
                             </div>
                             <small>
-                                <div>17.82%</div>
+                                <div>18.1%</div>
                             </small>
                         </div>
                     </section>
