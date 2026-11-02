@@ -29,4 +29,4 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_colors: "0:#f2a33a, 1:#2b7bd8, 2:#8cc4ff, 3:#d9731a, 4:#ffcf8a, 5:#e8e8e8, 6:#ffffff, 7:#1e4f99"
           plugin_languages_indepth_custom: fkie-cad/SCF, fkie-cad/encrypted-smb-forensics
-          extras_css: "h2.field, section.column > small { display: none !important; } h3.field { font-size: 22px !important; } .language, .language small { font-size: 13px !important; }"
+          extras_css: "h2.field, section.column > small { display: none !important; } h3.field { font-size: 21px !important; font-weight: 600 !important; color: #f2a33a !important; align-self: flex-start !important; margin: 6px 0 14px 12px !important; } svg.bar { margin: 0 12px 16px !important; } .language.details { font-size: 13px !important; color: #c9d1d9 !important; margin-bottom: 10px !important; } .language.details small { font-size: 13px !important; color: #c9d1d9 !important; }"
