@@ -8,8 +8,5 @@
   <img src="koi/koi.gif" align="right" width="40%" alt="My koi" />
 </a>
 <br clear="all" />
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cards/languages-dark.svg" />
-  <img src="cards/languages.svg" align="right" width="40%" alt="Languages I've contributed in" />
-</picture>
+<img src="cards/languages.svg" align="right" width="40%" alt="Languages I've contributed in" />
 <br clear="all" />
